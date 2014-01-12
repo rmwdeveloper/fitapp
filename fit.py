@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import tkinter as tk
 import pickle as pk
-import inputEx6 as exerinput
+import inputEx as exerinput
 
     
 class QuitButton(tk.Button):
