@@ -1,0 +1,20 @@
+for row in cursor.execute('SELECT * FROM exercises ORDER BY name'):
+
+for row in cursor.execute('SELECT * FROM exercises ORDER BY id'):
+
+for row in cursor.execute('SELECT * FROM events ORDER BY id'):
+for row in cursor.execute('SELECT * FROM events_weightlifting ORDER BY id'):
+
+for row in cursor.execute('SELECT * FROM foods ORDER BY id'):
+
+for row in cursor.execute('SELECT * FROM food_journal ORDER BY date'):
+
+for row in cursor.execute('SELECT * FROM food_journal ORDER BY id'):
+
+for row in cursor.execute('SELECT * FROM personal_info ORDER BY id'):
+
+
+for row in cursor.execute('SELECT * FROM recipes ORDER BY id'):
+
+
+for row in cursor.execute('SELECT * FROM recipe_ingredient_listing ORDER BY id'):
